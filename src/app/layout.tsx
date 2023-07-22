@@ -13,7 +13,7 @@ export default async function RootLayout({
 }: {
   children: React.ReactNode
 }) {
-  const lang = cookies().get("language")?.value || "fa-IR";
+  const lang = cookies().get("language")?.value || "en-US";
   const dictionary = await getDictionary(lang);
   return (
     <html lang={lang} dir={dictionary.html.dir}>

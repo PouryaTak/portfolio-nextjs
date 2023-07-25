@@ -9,7 +9,7 @@ const {selectedLang, handleLang} = useSelectedLang(language)
     <>
       <button
         onClick={handleLang}
-        className="text-slate-200 absolute top-5 ltr:left-5 rtl:right-5 p-1.5 text-sm flex gap-2 items-center pl-2"
+        className="text-gray-200 p-1.5 flex gap-2 items-center pl-2"
       >
         <span className="mt-1 block px-2">
           {selectedLang}

@@ -25,7 +25,7 @@ export default function Accordion({
   }, []);
 
   return (
-    <div className="mb-20" style={{ height: contentHeight }}>
+    <div className="mb-20">
       <button
         className="title flex items-center gap-5 hover:opacity-80"
         onClick={() => setIsToggled((current) => !current)}

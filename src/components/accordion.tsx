@@ -1,6 +1,6 @@
 "use client";
 import React, { useLayoutEffect, useRef, useState } from "react";
-import { ChevronUp } from "react-feather";
+import { ChevronDown } from "react-feather";
 
 export default function Accordion({
   children,
@@ -32,7 +32,7 @@ export default function Accordion({
       >
         {icon}
         <span className="text-2xl text-red-400 user-select-none">{title}</span>
-        <ChevronUp
+        <ChevronDown
           className={`print:hidden mt-2 transition-transform duration-300 text-gray-400 ${
             isToggled && "rotate-180"
           }`}

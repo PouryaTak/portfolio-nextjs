@@ -14,7 +14,7 @@ export default function Experiences({ dictionaries }: { dictionaries: any }) {
           <ListItem title={work.title} key={idx}>
             <ul className="text-white font-extralight opacity-90  ltr:pl-3 rtl:pr-3">
               {work.list.map((experience: any) => (
-                <li key={experience} className="list-disc">{experience}</li>
+                <li key={experience} className="list-disc mb-3 lg:mb-1">{experience}</li>
               ))}
             </ul>
           </ListItem>

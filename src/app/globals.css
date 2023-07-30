@@ -9,3 +9,11 @@
 body {
   background: var(--background)
 }
+
+.ltr {
+  direction: ltr;
+}
+
+.rtl {
+  direction: rtl;
+}

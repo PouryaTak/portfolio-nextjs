@@ -18,9 +18,9 @@ export default function Personality({ dictionaries }: { dictionaries: any }) {
         <ListItem title={dictionaries.personality.content.tests.title}>
           <div className="flex justify-between items-start lg:items-center gap-6 flex-col lg:flex-row mb-6 mt-3 w-11/12 mx-auto ltr">
             {dictionaries.personality.content.tests.list.map((i: any) => (
-              <div className="flex gap-2 ltr" key={i.value}>
-                <p className="text-white font-extralight ltr">{i.type}</p>
-                <p className="text-amber-100 font-extralight ltr">
+              <div className="flex gap-2 font-extralight ltr" key={i.value}>
+                <p className="text-white ">{i.type}</p>
+                <p className="text-amber-100">
                   {i.value}
                 </p>
               </div>

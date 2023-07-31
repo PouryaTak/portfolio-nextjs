@@ -21,4 +21,4 @@ export default async function Home() {
      <Personality dictionaries={dictionaries}/>
     </main>
   )
-}
+} 

@@ -5,7 +5,7 @@
   },
   "name": "Pourya Takmar",
   "title": "Front-end Developer / UX Engineer",
-  "update": "Updated on 77 Jul 2023",
+  "update": "Updated on 30 Jul 2023",
   "summary": {
       "title": "Summary",
       "content": {
@@ -38,14 +38,6 @@
                   "Created and maintained Tailwind components and design systems, promoting consistency and efficiency in front-end development workflows.",
                   "Developed a robust API system using JavaScript classes, enabling precise control over responses and effective error handling.",
                   "Improved accessibility and performance by implementing custom line charts using SVG, enhancing visual representation and user experiences."
-              ]
-          },
-          {
-              "title": "Freelance developer: 2021 - Now",
-              "list": [
-                  "Working on multiple projects using a variety of tools and technologies.",
-                  "Coding my own designs led to enhanced elegance and precision while maximizing reliability and efficiency.",
-                  "Enhance user experience by optimizing images, code, and cross-browser compatibility."
               ]
           },
           {
@@ -162,7 +154,7 @@
                       "score": "7"
                   },
                   {
-                      "title": "Web Workers",
+                      "title": "Service Workers",
                       "score": "6"
                   },
                   {

@@ -15,19 +15,19 @@ export default function Summary({ dictionaries }: { dictionaries: any }) {
         <div className="flex flex-col justify-between lg:items-center gap-3 items-start w-full lg:w-4/5 lg:flex-row ltr">
           <div className="flex text-white gap-2 items-center ltr">
             <Mail className="text-amber-400" />
-            <a href="mailto:pooriversal@gmail.com">
+            <a href="mailto:pooriversal@gmail.com" className="text-amber-100 underline">
               {dictionaries.summary.content.email}
             </a>
           </div>
           <div className="flex text-white gap-2 items-center ltr">
             <Smartphone className="text-amber-400" />
-            <a href="tel:+989362969810">
+            <a href="tel:+989362969810" className="text-amber-100 underline">
               {dictionaries.summary.content.mobile}
             </a>
           </div>
           <div className="flex text-white gap-2 items-center ltr">
             <MapPin className="text-amber-400" />
-            <a href="https://goo.gl/maps/BodBqXXqN3yaKkoH8">
+            <a href="https://goo.gl/maps/BodBqXXqN3yaKkoH8" className="text-amber-100 underline">
               {dictionaries.summary.content.location}
             </a>
           </div>

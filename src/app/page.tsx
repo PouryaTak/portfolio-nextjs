@@ -12,7 +12,7 @@ export default async function Home() {
   const dictionaries = await getDictionary(lang)
 
   return (
-    <main className="w-full px-5 md:px-20 py-20">
+    <main className="w-full max-w-7xl mx-auto px-5 md:px-20 py-20">
      <Header language={lang} dictionaries={dictionaries}/>
      <Summary dictionaries={dictionaries}/>
      <Experiences dictionaries={dictionaries}/>

@@ -1,7 +1,7 @@
 import React from "react";
 import Accordion from "./accordion";
-import { BookOpen, User } from "react-feather";
 import ListItem from "./list-item";
+import { BookOpen, User } from "lucide-react";
 
 const icons:any = {
     Book: <BookOpen/>,
@@ -13,14 +13,14 @@ export default function Personality({ dictionaries }: { dictionaries: any }) {
     <section>
       <Accordion
         title={dictionaries.personality.title}
-        icon={<User className="text-white" />}
+        icon={<User className="dark:text-white text-gray-800" />}
       >
         <ListItem title={dictionaries.personality.content.tests.title}>
           <div className="flex justify-between items-start lg:items-center gap-6 flex-col lg:flex-row mb-6 mt-3 w-11/12 mx-auto ltr">
             {dictionaries.personality.content.tests.list.map((i: any) => (
-              <div className="flex gap-2 font-extralight ltr" key={i.value}>
-                <p className="text-white ">{i.type}</p>
-                <p className="text-amber-100">
+              <div className="flex gap-2 font-normal ltr" key={i.value}>
+                <p className="dark:text-white text-gray-800 ">{i.type}</p>
+                <p className="dark:text-amber-100 text-sky-500">
                   {i.value}
                 </p>
               </div>
@@ -33,7 +33,7 @@ export default function Personality({ dictionaries }: { dictionaries: any }) {
               {dictionaries.personality.content.interests.list.map((i: any) => (
                 <div className="flex flex-col items-center gap-2" key={i.value}>
                   {icons[i.type]}
-                  <p className="text-amber-100 font-extralight text-center">
+                  <p className="dark:text-amber-100 text-sky-500 font-normal text-center">
                     {i.value}
                   </p>
                 </div>

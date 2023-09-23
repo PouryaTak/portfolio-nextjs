@@ -5,7 +5,7 @@
   },
   "name": "Pourya Takmar",
   "title": "Front-end Developer / UX Engineer",
-  "update": "Updated on 30 Jul 2023",
+  "update": "Updated on 22 Sep 2023",
   "summary": {
       "title": "Summary",
       "content": {
@@ -19,7 +19,7 @@
       "title": "Working Experience",
       "content": [
           {
-              "title": "Front-End developer at Classeh: Nov 2022 - July 2023",
+              "title": "Front-End developer at Classeh: Nov 2022 - Sep 2023",
               "list": [
                   "Contributing to the architecture design of new products, with a focus on maximizing productivity using Next.js.",
                   "Maintaining and troubleshooting existing code bases, utilizing React.js, to ensure smooth functionality.",
@@ -30,7 +30,7 @@
               ]
           },
           {
-              "title": "UX Engineer at Dyneema: Jan 2022 - Aug 2022",
+              "title": "Front-End developer at Dyneema: Jan 2022 - Aug 2022",
               "list": [
                   "Enhancing user engagement and operational efficiency by implementing new features, refining code, and optimizing processes.",
                   "Led the development of a podcasting Progressive Web App (PWA), contributing to its successful establishment and continuous improvement.",
@@ -193,7 +193,7 @@
                       "score": "10"
                   },
                   {
-                      "title": "Wireframing",
+                      "title": "Wireframes",
                       "score": "9"
                   },
                   {

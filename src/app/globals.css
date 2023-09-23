@@ -3,11 +3,12 @@
 @tailwind utilities;
 
 :root {
-  --background: #2e2e2e;
+  --background-dark: #2e2e2e;
+  --background: #fafafa;
 }
 
 body {
-  background: var(--background)
+  @apply dark:bg-[var(--background-dark)] bg-[var(--background)]
 }
 
 .ltr {

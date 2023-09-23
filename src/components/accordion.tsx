@@ -1,6 +1,6 @@
 "use client";
+import { ChevronDown } from "lucide-react";
 import React, { useLayoutEffect, useRef, useState } from "react";
-import { ChevronDown } from "react-feather";
 
 export default function Accordion({
   children,
@@ -31,7 +31,7 @@ export default function Accordion({
         onClick={() => setIsToggled((current) => !current)}
       >
         {icon}
-        <span className="text-2xl text-red-400 user-select-none">{title}</span>
+        <span className="text-2xl dark:text-red-400 text-sky-500 font-semibold user-select-none">{title}</span>
         <ChevronDown
           className={`print:hidden mt-2 transition-transform duration-300 text-gray-400 ${
             isToggled && "rotate-180"

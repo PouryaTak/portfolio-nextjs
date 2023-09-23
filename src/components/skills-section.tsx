@@ -1,15 +1,15 @@
 import React from "react";
 import Accordion from "./accordion";
-import { Tool } from "react-feather";
 import ListItem from "./list-item";
 import PillItem from "./pill-item";
+import { PocketKnife } from "lucide-react";
 
 export default function Skills({ dictionaries }: { dictionaries: any }) {
   return (
     <section>
       <Accordion
         title={dictionaries.skills.title}
-        icon={<Tool className="text-white" />}
+        icon={<PocketKnife className="dark:text-white text-gray-800" />}
       >
         {dictionaries.skills.content.map((skill: any, idx: string) => (
           <ListItem title={skill.title} key={idx}>

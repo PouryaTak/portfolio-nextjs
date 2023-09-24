@@ -4,7 +4,7 @@
     "dir": "ltr"
   },
   "name": "Pourya Takmar",
-  "title": "Front-end Developer / UX Engineer",
+  "title": "Front-end Developer",
   "update": "Updated on 22 Sep 2023",
   "summary": {
       "title": "Summary",
@@ -25,7 +25,6 @@
                   "Maintaining and troubleshooting existing code bases, utilizing React.js, to ensure smooth functionality.",
                   "Collaborating on various side features and projects to support the overall development process.",
                   "Conducting research and development programs to assess and select appropriate technologies for optimal outcomes.",
-                  "Developing a messenger app using WebSocket technology and implementing a structured repository system.",
                   "Improving user interfaces through thoughtful styling and enhancements, prioritizing user experience and accessibility."
               ]
           },
@@ -35,7 +34,7 @@
                   "Enhancing user engagement and operational efficiency by implementing new features, refining code, and optimizing processes.",
                   "Led the development of a podcasting Progressive Web App (PWA), contributing to its successful establishment and continuous improvement.",
                   "Collaborated as a UX Engineer to bridge the gap between design and technology, ensuring seamless integration and user-centered experiences.",
-                  "Created and maintained Tailwind components and design systems, promoting consistency and efficiency in front-end development workflows.",
+                  "Create and maintain dedicated Tailwind components and design systems, promoting consistency and efficiency in development workflows.",
                   "Developed a robust API system using JavaScript classes, enabling precise control over responses and effective error handling.",
                   "Improved accessibility and performance by implementing custom line charts using SVG, enhancing visual representation and user experiences."
               ]

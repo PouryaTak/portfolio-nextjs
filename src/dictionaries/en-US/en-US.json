@@ -121,16 +121,8 @@
                       "score": "7"
                   },
                   {
-                      "title": "Vutify",
-                      "score": "6"
-                  },
-                  {
                       "title": "SOLID",
                       "score": "7"
-                  },
-                  {
-                      "title": "OOP",
-                      "score": "6"
                   },
                   {
                       "title": "SSR",
@@ -159,10 +151,6 @@
                   {
                       "title": "Micro-frontend",
                       "score": "5"
-                  },
-                  {
-                      "title": "Vue Testing utils",
-                      "score": "4"
                   },
                   {
                       "title": "Git",

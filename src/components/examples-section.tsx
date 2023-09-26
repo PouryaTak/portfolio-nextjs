@@ -1,7 +1,7 @@
 import React from "react";
 import Accordion from "./accordion";
 import ListItem from "./list-item";
-import { Box, Codepen, Github } from "lucide-react";
+import { Codepen, FileJson2, Github } from "lucide-react";
 
 const icons: any = {
   Codepen: <Codepen className="dark:text-sky-100 text-gray-500 h-10" />,
@@ -13,7 +13,7 @@ export default function Examples({ dictionaries }: { dictionaries: any }) {
     <section>
       <Accordion
         title={dictionaries.works.title}
-        icon={<Box className="dark:text-white text-gray-800" />}
+        icon={<FileJson2 className="dark:text-white text-gray-800" />}
       >
         {dictionaries.works.content.map((work: any, idx: string) => (
           <ListItem title={work.title} icon={icons[work.title]} key={idx}>

@@ -6,10 +6,12 @@ export default function Accordion({
   children,
   title,
   icon,
+  showBackground,
 }: {
   children: React.ReactNode;
   title: string;
   icon: any;
+  showBackground?: boolean;
 }) {
   const [isToggled, setIsToggled] = useState(true);
   const [contentHeight, setContentHeight] = useState(0);
@@ -26,22 +28,15 @@ export default function Accordion({
 
   return (
     <div className="mb-20">
-      <button
-        className="title flex items-center gap-5 hover:opacity-80"
-        onClick={() => setIsToggled((current) => !current)}
-      >
+      <button className="title flex items-center gap-5 hover:opacity-80" onClick={() => setIsToggled((current) => !current)}>
         {icon}
         <span className="text-2xl dark:text-cyan-400 text-cyan-500 font-semibold user-select-none">{title}</span>
         <ChevronDown
-          className={`print:hidden mt-2 transition-transform duration-300 text-gray-400 ${
-            isToggled && "rotate-180"
-          }`}
+          className={`print:hidden mt-2 transition-transform duration-300 text-gray-400 ${isToggled && "rotate-180"}`}
           size={20}
           aria-hidden={true}
         />
-        <span className="sr-only">
-          {isToggled ? "close list" : "open list"}
-        </span>
+        <span className="sr-only">{isToggled ? "close list" : "open list"}</span>
       </button>
       <div
         className={`transition-all duration-300 overflow-hidden user-select-none ${
@@ -49,7 +44,9 @@ export default function Accordion({
         }`}
         style={{ "--height": `${contentHeight}px` } as React.CSSProperties}
       >
-        <div ref={content}>{children}</div>
+        <div ref={content} className={showBackground ? "lg:p-5 rounded-2xl lg:bg-slate-50 lg:dark:bg-neutral-700/20" : ""}>
+          {children}
+        </div>
       </div>
     </div>
   );

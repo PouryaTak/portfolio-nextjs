@@ -7,304 +7,295 @@
   "title": "Front-end Developer",
   "update": "Updated on 22 Sep 2023",
   "summary": {
-      "title": "Summary",
-      "content": {
-          "about": "I am a creative and self-motivated developer, well-versed in analytical thinking, problem-solving techniques, and user interface design. Because of my background in the UI and UX design field, I have a deep and comprehensive understanding of interfaces and user interactions. Persistent in implementing SOLID and Clean Code to make everything clear and accessible for the team.",
-          "email": "Pouriversal@gmail.com",
-          "mobile": "+98-936-296-9810",
-          "location": "IRAN - Rasht"
-      }
+    "title": "Summary",
+    "content": {
+      "about": "I am a creative and self-motivated developer, well-versed in analytical thinking, problem-solving techniques, and user interface design. Because of my background in the UI and UX design field, I have a deep and comprehensive understanding of interfaces and user interactions. Persistent in implementing SOLID and Clean Code to make everything clear and accessible for the team.",
+      "email": "Pouriversal@gmail.com",
+      "mobile": "+98-936-296-9810",
+      "location": "IRAN - Rasht"
+    }
   },
   "experience": {
-      "title": "Working Experience",
-      "content": [
-          {
-              "title": "Front-End developer at Classeh: Nov 2022 - Sep 2023",
-              "list": [
-                  "Contributing to the architecture design of new products, with a focus on maximizing productivity using Next.js.",
-                  "Maintaining and troubleshooting existing code bases, utilizing React.js, to ensure smooth functionality.",
-                  "Collaborating on various side features and projects to support the overall development process.",
-                  "Conducting research and development programs to assess and select appropriate technologies for optimal outcomes.",
-                  "Improving user interfaces through thoughtful styling and enhancements, prioritizing user experience and accessibility."
-              ]
-          },
-          {
-              "title": "Front-End developer at Dyneema: Jan 2022 - Aug 2022",
-              "list": [
-                  "Enhancing user engagement and operational efficiency by implementing new features, refining code, and optimizing processes.",
-                  "Led the development of a podcasting Progressive Web App (PWA), contributing to its successful establishment and continuous improvement.",
-                  "Collaborated as a UX Engineer to bridge the gap between design and technology, ensuring seamless integration and user-centered experiences.",
-                  "Create and maintain dedicated Tailwind components and design systems, promoting consistency and efficiency in development workflows.",
-                  "Developed a robust API system using JavaScript classes, enabling precise control over responses and effective error handling.",
-                  "Improved accessibility and performance by implementing custom line charts using SVG, enhancing visual representation and user experiences."
-              ]
-          },
-          {
-              "title": "Front-End developer at RominaCoir: May 2021 - May 2022",
-              "list": [
-                  "Set up and maintain the Bit24 web application using Tailwind CSS and Nuxt JS.",
-                  "Creating an exclusive carrousel to minimize the code bundle and maximize efficiency.",
-                  "Contributing to the Go2TR project by modifying and expanding the UI and optimizing user interaction using Vutify, Nuxt class components and TypeScript.",
-                  "Support designers and app developers while resolving website performance issues to ensure efficient web development"
-              ]
-          },
-          {
-              "title": "UI/UX Designer: 2017-2020",
-              "list": [
-                  "Designing UI elements, Design systems, wireframes, and hi-fi prototypes based on Atomic design principles.",
-                  "Optimizing user experience for websites and apps.",
-                  "Using Design thinking and more advanced methods to solve problems."
-              ]
-          }
-      ]
+    "title": "Working Experience",
+    "content": [
+      {
+        "title": "Front-End developer at Classeh: Nov 2022 - Sep 2023",
+        "list": [
+          "Contributing to the architecture design of new products, with a focus on maximizing productivity using Next.js.",
+          "Maintaining and troubleshooting existing code bases, utilizing React.js, to ensure smooth functionality.",
+          "Collaborating on various side features and projects to support the overall development process.",
+          "Conducting research and development programs to assess and select appropriate technologies for optimal outcomes.",
+          "Improving user interfaces through thoughtful styling and enhancements, prioritizing user experience and accessibility."
+        ]
+      },
+      {
+        "title": "Front-End developer at Dyneema: Jan 2022 - Aug 2022",
+        "list": [
+          "Enhancing user engagement and operational efficiency by implementing new features, refining code, and optimizing processes.",
+          "Led the development of a podcasting Progressive Web App (PWA), contributing to its successful establishment and continuous improvement.",
+          "Collaborated as a UX Engineer to bridge the gap between design and technology, ensuring seamless integration and user-centered experiences.",
+          "Create and maintain dedicated Tailwind components and design systems, promoting consistency and efficiency in development workflows.",
+          "Developed a robust API system using JavaScript classes, enabling precise control over responses and effective error handling.",
+          "Improved accessibility and performance by implementing custom line charts using SVG, enhancing visual representation and user experiences."
+        ]
+      },
+      {
+        "title": "Front-End developer at RominaCoir: May 2021 - May 2022",
+        "list": [
+          "Set up and maintain the Bit24 web application using Tailwind CSS and Nuxt JS.",
+          "Creating an exclusive carrousel to minimize the code bundle and maximize efficiency.",
+          "Contributing to the Go2TR project by modifying and expanding the UI and optimizing user interaction using Vutify, Nuxt class components and TypeScript.",
+          "Support designers and app developers while resolving website performance issues to ensure efficient web development"
+        ]
+      },
+      {
+        "title": "UI/UX Designer: 2017-2020",
+        "list": [
+          "Designing UI elements, Design systems, wireframes, and hi-fi prototypes based on Atomic design principles.",
+          "Optimizing user experience for websites and apps.",
+          "Using Design thinking and more advanced methods to solve problems."
+        ]
+      }
+    ]
   },
   "works": {
-      "title": "Working examples",
-      "content": [
-          {
-              "title": "Codepen",
-              "link": "https://codepen.io/pouriversal",
-              "text": "codepen.io/pouriversal",
-              "description": "This is mostly a collection of my experimental and simple works"
-          },
-          {
-              "title": "Github",
-              "link": "https://github.com/PouryaTak",
-              "text": "github.com/PouryaTak",
-              "description": "Projects and daily works I am involved in"
-          }
-      ]
+    "title": "Working examples",
+    "content": [
+      {
+        "title": "Codepen",
+        "link": "https://codepen.io/pouriversal",
+        "text": "codepen.io/pouriversal",
+        "description": "This is mostly a collection of my experimental and simple works"
+      },
+      {
+        "title": "Github",
+        "link": "https://github.com/PouryaTak",
+        "text": "github.com/PouryaTak",
+        "description": "Projects and daily works I am involved in"
+      }
+    ]
   },
   "skills": {
-      "title": "Tools & Skills",
-      "content": [
-        
+    "title": "Tools & Skills",
+    "content": [
+      {
+        "title": "Web Development",
+        "list": [
           {
-              "title": "Web Development",
-              "list": [
-                  {
-                      "title": "HTML",
-                      "score": "10"
-                  },
-                 
-                  {
-                      "title": "CSS",
-                      "score": "10"
-                  },
-                  {
-                      "title": "CSS preprocessors",
-                      "score": "9"
-                  },
-                  {
-                      "title": "JavaScript",
-                      "score": "7"
-                  },
-                  {
-                      "title": "HTML preprocessors",
-                      "score": "7"
-                  },
-                 
-                  {
-                      "title": "Vue Js",
-                      "score": "6"
-                  },
-                  {
-                      "title": "React Js",
-                      "score": "8"
-                  },
-                  {
-                      "title": "Next Js",
-                      "score": "8"
-                  },
-                  {
-                      "title": "Nuxt Js",
-                      "score": "7"
-                  },
-                  {
-                      "title": "SOLID",
-                      "score": "7"
-                  },
-                  {
-                      "title": "SSR",
-                      "score": "8"
-                  },
-                  {
-                      "title": "TypeScript",
-                      "score": "6"
-                  },
-                  {
-                      "title": "Bootstrap",
-                      "score": "7"
-                  },
-                  {
-                      "title": "Tailwind css",
-                      "score": "10"
-                  },
-                  {
-                      "title": "Web socket",
-                      "score": "7"
-                  },
-                  {
-                      "title": "Service Workers",
-                      "score": "6"
-                  },
-                  {
-                      "title": "Micro-frontend",
-                      "score": "5"
-                  },
-                  {
-                      "title": "Git",
-                      "score": "6"
-                  },
-                  {
-                      "title": "Design Patterns",
-                      "score": "4"
-                  }
-              
-              ]
+            "title": "HTML",
+            "score": "10"
           },
           {
-              "title": "UI & UX",
-              "list": [
-                  {
-                      "title": "Figma",
-                      "score": "10"
-                  },
-                  {
-                      "title": "Adobe XD",
-                      "score": "10"
-                  },
-                 
-                  {
-                      "title": "Prototyping",
-                      "score": "10"
-                  },
-                  {
-                      "title": "Wireframes",
-                      "score": "9"
-                  },
-                  {
-                      "title": "Persona",
-                      "score": "9"
-                  },
-                  {
-                      "title": "User Story",
-                      "score": "8"
-                  },
-                  {
-                      "title": "Design languages",
-                      "score": "7"
-                  },
-                  {
-                      "title": "A/B testing",
-                      "score": "6"
-                  },
-                  {
-                      "title": "User analysis",
-                      "score": "6"
-                  },
-                  {
-                      "title": "ProtoPie",
-                      "score": "5"
-                  }
-              ]
+            "title": "CSS",
+            "score": "10"
           },
           {
-              "title": "Process and Thinking",
-              "list": [
-                  {
-                      "title": "Design Thinking",
-                      "score": "9"
-                  },
-                  {
-                      "title": "Double Diamond",
-                      "score": "7"
-                  },
-                  {
-                      "title": "Brain Storming",
-                      "score": "9"
-                  },
-                  {
-                      "title": "Reversed Brain Storming",
-                      "score": "8"
-                  },
-                  {
-                      "title": "Mind Mapping",
-                      "score": "8"
-                  },
-                  {
-                      "title": "Design Sprint",
-                      "score": "6"
-                  },
-                  {
-                      "title": "Agile",
-                      "score": "7"
-                  },
-                  {
-                      "title": "Flowchart",
-                      "score": "7"
-                  }
-              ]
+            "title": "SASS",
+            "score": "9"
+          },
+          {
+            "title": "WAI-ARIA",
+            "score": "9"
+          },
+          {
+            "title": "JavaScript",
+            "score": "7"
+          },
+          {
+            "title": "TypeScript",
+            "score": "6"
+          },
+          {
+            "title": "React Js",
+            "score": "8"
+          },
+          {
+            "title": "Next Js",
+            "score": "8"
+          },
+          {
+            "title": "Redux",
+            "score": "7"
+          },
+          {
+            "title": "Vue Js",
+            "score": "6"
+          },
+          {
+            "title": "Nuxt Js",
+            "score": "7"
+          },
+          {
+            "title": "Jest",
+            "score": "7"
+          },
+          {
+            "title": "RTL",
+            "score": "7"
+          },
+          {
+            "title": "Tailwind css",
+            "score": "10"
+          },
+          {
+            "title": "Web socket",
+            "score": "7"
+          },
+          {
+            "title": "PWA",
+            "score": "6"
+          },
+          {
+            "title": "Micro-frontend",
+            "score": "5"
+          },
+          {
+            "title": "REST API",
+            "score": "7"
+          },
+          {
+            "title": "Git",
+            "score": "6"
           }
-      ]
+        ]
+      },
+      {
+        "title": "UI & UX",
+        "list": [
+          {
+            "title": "Figma",
+            "score": "10"
+          },
+          {
+            "title": "Adobe XD",
+            "score": "10"
+          },
+          {
+            "title": "Prototyping",
+            "score": "10"
+          },
+          {
+            "title": "Wireframes",
+            "score": "9"
+          },
+          {
+            "title": "Persona",
+            "score": "9"
+          },
+          {
+            "title": "User Story",
+            "score": "8"
+          },
+          {
+            "title": "Design languages",
+            "score": "7"
+          },
+          {
+            "title": "A/B testing",
+            "score": "6"
+          },
+          {
+            "title": "User analysis",
+            "score": "6"
+          }
+        ]
+      },
+      {
+        "title": "Process and Thinking",
+        "list": [
+          {
+            "title": "Design Thinking",
+            "score": "9"
+          },
+          {
+            "title": "Double Diamond",
+            "score": "7"
+          },
+          {
+            "title": "Brain Storming",
+            "score": "9"
+          },
+          {
+            "title": "Reversed Brain Storming",
+            "score": "8"
+          },
+          {
+            "title": "Mind Mapping",
+            "score": "8"
+          },
+          {
+            "title": "Design Sprint",
+            "score": "6"
+          },
+          {
+            "title": "Agile",
+            "score": "7"
+          },
+          {
+            "title": "Flowchart",
+            "score": "7"
+          }
+        ]
+      }
+    ]
   },
   "personality": {
-      "title": "Personality & Interests",
-      "content": {
-          "tests": {
-              "title": "Personality & Tests",
-              "list": [
-                  {
-                      "type": "MBTI:",
-                      "value": "INTJ"
-                  },
-                  {
-                      "type": "Hartman:",
-                      "value": "Blue"
-                  },
-                  {
-                      "type": "Raven-IQ:",
-                      "value": "131"
-                  },
-                  {
-                      "type": "Neo-FFI:",
-                      "value": "N-F-O-A-C"
-                  },
-                  {
-                      "type": "DISC:",
-                      "value": "Type C"
-                  }
-              ]
+    "title": "Personality & Interests",
+    "content": {
+      "tests": {
+        "title": "Personality & Tests",
+        "list": [
+          {
+            "type": "MBTI:",
+            "value": "INTJ"
           },
-          "interests": {
-              "title": "Interests & Hobbies",
-              "list": [
-                  {
-                      "type": "Book",
-                      "value": "Reading"
-                  },
-                  {
-                      "type": "Piano",
-                      "value": "Playing Keyboard"
-                  },
-                  {
-                      "type": "Chess",
-                      "value": "Playing Chess"
-                  },
-                  {
-                      "type": "Coffee",
-                      "value": "Doing Barista stuff"
-                  },
-                  {
-                      "type": "Bicycle",
-                      "value": "Biking"
-                  },
-                  {
-                      "type": "Cards",
-                      "value": "Boardgames"
-                  }
-              ]
+          {
+            "type": "Hartman:",
+            "value": "Blue"
+          },
+          {
+            "type": "Raven-IQ:",
+            "value": "131"
+          },
+          {
+            "type": "Neo-FFI:",
+            "value": "N-F-O-A-C"
+          },
+          {
+            "type": "DISC:",
+            "value": "Type C"
           }
+        ]
+      },
+      "interests": {
+        "title": "Interests & Hobbies",
+        "list": [
+          {
+            "type": "Book",
+            "value": "Reading"
+          },
+          {
+            "type": "Piano",
+            "value": "Playing Keyboard"
+          },
+          {
+            "type": "Chess",
+            "value": "Playing Chess"
+          },
+          {
+            "type": "Coffee",
+            "value": "Doing Barista stuff"
+          },
+          {
+            "type": "Bicycle",
+            "value": "Biking"
+          },
+          {
+            "type": "Cards",
+            "value": "Boardgames"
+          }
+        ]
       }
+    }
   }
 }

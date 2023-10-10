@@ -5,7 +5,7 @@
   },
   "name": "Pourya Takmar",
   "title": "Front-end Developer",
-  "update": "Updated on 22 Sep 2023",
+  "update": "Updated on 24 Sep 2023",
   "summary": {
     "title": "Summary",
     "content": {
@@ -49,11 +49,18 @@
         ]
       },
       {
+        "title": "Front-End intern at Caropex: May 2020 - May 2021",
+        "list": [
+          "Creating UI components followed by Atomic design principle",
+          "Collaborated on UI improvements, leading to a more user-friendly interface with positive feedback.",
+          "Ensured consistent web app performance across various browsers through thorough testing and optimization.",
+          " Improved website speed by 20% through identification and resolution of performance issues, enhancing user satisfaction."
+        ]
+      },
+      {
         "title": "UI/UX Designer: 2017-2020",
         "list": [
-          "Designing UI elements, Design systems, wireframes, and hi-fi prototypes based on Atomic design principles.",
-          "Optimizing user experience for websites and apps.",
-          "Using Design thinking and more advanced methods to solve problems."
+          "Designing UI elements, Design systems, wireframes, and hi-fi prototypes based on Atomic design principles."
         ]
       }
     ]
@@ -144,10 +151,6 @@
           {
             "title": "PWA",
             "score": "6"
-          },
-          {
-            "title": "Micro-frontend",
-            "score": "5"
           },
           {
             "title": "REST API",

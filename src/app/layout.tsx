@@ -4,8 +4,8 @@ import type { Metadata } from 'next'
 import { getDictionary } from './dictionaries';
 
 export const metadata: Metadata = {
-  title: 'Portfolio',
-  description: 'pourya takmar',
+  title: 'Pourya Iakmar - Front-End Developer',
+  description: 'The Resume of pourya takmar',
 }
 
 export default async function RootLayout({

@@ -30,7 +30,7 @@ export default function Accordion({
     <div className="mb-20">
       <button className="title flex items-center gap-5 hover:opacity-80" onClick={() => setIsToggled((current) => !current)}>
         {icon}
-        <span className="text-2xl dark:text-cyan-400 text-cyan-500 font-semibold user-select-none">{title}</span>
+        <span className="text-2xl dark:text-cyan-400 text-cyan-600 font-semibold user-select-none">{title}</span>
         <ChevronDown
           className={`print:hidden mt-2 transition-transform duration-300 text-gray-400 ${isToggled && "rotate-180"}`}
           size={20}

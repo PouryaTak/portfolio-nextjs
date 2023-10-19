@@ -1,5 +1,5 @@
 import React from "react";
-import Accordion from "./accordion";
+import SectionTitle from "./section-title"
 import ListItem from "./list-item";
 import { Codepen, FileJson2, Github } from "lucide-react";
 
@@ -11,7 +11,8 @@ const icons: any = {
 export default function Examples({ dictionaries }: { dictionaries: any }) {
   return (
     <section>
-      <Accordion
+      <SectionTitle
+        id={'examples'}
         title={dictionaries.works.title}
         icon={<FileJson2 className="dark:text-white text-gray-800" />}
       >
@@ -25,7 +26,7 @@ export default function Examples({ dictionaries }: { dictionaries: any }) {
             </p>
           </ListItem>
         ))}
-      </Accordion>
+      </SectionTitle>
     </section>
   );
 }

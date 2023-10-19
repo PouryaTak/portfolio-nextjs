@@ -1,12 +1,13 @@
 import React from "react";
-import Accordion from "./accordion";
+import SectionTitle from "./section-title"
 import ListItem from "./list-item";
 import { Briefcase } from "lucide-react";
 
 export default function Experiences({ dictionaries }: { dictionaries: any }) {
   return (
     <section>
-      <Accordion
+      <SectionTitle
+        id={'experiences'}
         title={dictionaries.experience.title}
         icon={<Briefcase className="dark:text-white text-gray-800" />}
       >
@@ -19,7 +20,7 @@ export default function Experiences({ dictionaries }: { dictionaries: any }) {
             </ul>
           </ListItem>
         ))}
-      </Accordion>
+      </SectionTitle>
     </section>
   );
 }

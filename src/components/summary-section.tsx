@@ -1,11 +1,16 @@
 import React from "react";
-import Accordion from "./accordion";
+import SectionTitle from "./section-title";
 import { FileText, Mail, MapPin, Smartphone } from "lucide-react";
 
 export default function Summary({ dictionaries }: { dictionaries: any }) {
   return (
     <section>
-      <Accordion showBackground title={dictionaries.summary.title} icon={<FileText className="dark:text-white text-gray-800" />}>
+      <SectionTitle
+        id={"summary"}
+        showBackground
+        title={dictionaries.summary.title}
+        icon={<FileText className="dark:text-white text-gray-800" />}
+      >
         <p className="dark:text-white text-gray-800 font-normal opacity-90 text-justify mb-5">
           {dictionaries.summary.content.about}
         </p>
@@ -21,7 +26,10 @@ export default function Summary({ dictionaries }: { dictionaries: any }) {
           </div>
           <div className="flex dark:text-white text-gray-800 gap-2 items-center ltr">
             <Smartphone className="dark:text-sky-100 text-gray-500" />
-            <a href="tel:+989362969810" className="dark:text-sky-200 text-sky-500 underline font-medium dark:font-normal">
+            <a
+              href="tel:+989362969810"
+              className="dark:text-sky-200 text-sky-500 underline font-medium dark:font-normal"
+            >
               {dictionaries.summary.content.mobile}
             </a>
           </div>
@@ -35,7 +43,7 @@ export default function Summary({ dictionaries }: { dictionaries: any }) {
             </a>
           </div>
         </div>
-      </Accordion>
+      </SectionTitle>
     </section>
   );
 }

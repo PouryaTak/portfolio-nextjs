@@ -7,6 +7,10 @@
   --background: #fafafa;
 }
 
+html {
+  @apply scroll-pt-6 scroll-smooth
+}
+
 body {
   @apply dark:bg-[var(--background-dark)] bg-[var(--background)]
 }
